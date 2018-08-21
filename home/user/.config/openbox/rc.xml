@@ -337,6 +337,52 @@
         <command>scrot</command>
       </action>
     </keybind>
+<keybind key="W-Return">   <action name="ToggleMaximizeFull"/></keybind>
+<keybind key="W-Tab">     <action name="NextWindow"><allDesktops>yes</allDesktops></action></keybind>
+<keybind key="W-S-Tab">   <action name="PreviousWindow"><allDesktops>yes</allDesktops></action></keybind>
+<keybind key="C-S-A-1">  <action name="MoveResizeTo"><monitor>1</monitor></action></keybind>
+<keybind key="C-S-A-2"> <action name="MoveResizeTo"><monitor>2</monitor></action></keybind>
+<keybind key="C-S-A-3"> <action name="MoveResizeTo"><monitor>3</monitor></action></keybind>
+<keybind key="C-S-A-a"> <action name="Execute"><command>/home/user/.bin/audio-selector.sh</command></action></keybind>
+ <keybind key="C-S-1">
+      <action name="Execute">
+        <command>/home/user/.screenlayout/Laptop-Single.sh</command>
+      </action>
+    </keybind>
+ <keybind key="C-S-3">
+      <action name="Execute">
+        <command>/home/user/.screenlayout/tri-monitor.sh</command>
+      </action>
+    </keybind>
+ <keybind key="C-S-2">
+      <action name="Execute">
+        <command>/home/user/.screenlayout/Laptop-Single.sh</command>
+      </action>
+    </keybind>
+ <keybind key="C-S-9">
+      <action name="Execute">
+        <command>nitrogen --restore</command>
+      </action>
+    </keybind>
+ <keybind key="C-S-0">
+      <action name="Execute">
+        <command>/home/user/.bin/touch-control.sh</command>
+      </action>
+    </keybind>
+ <keybind key="C-S-minus">
+      <action name="Execute">
+        <command>/home/user/.screenlayout/TV.sh</command>
+      </action>
+    </keybind>
+ <keybind key="W-R">
+      <action name="Execute">
+        <command>gmrun</command>
+      </action>
+    </keybind> <keybind key="W-T">
+      <action name="Execute">
+        <command>terminator</command>
+      </action>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
